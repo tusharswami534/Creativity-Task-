@@ -3,9 +3,7 @@ import DayNight from './components/DayNight';
 
 function App() {
   return (
-  <div>
     <DayNight/>
-  </div>
   );
 }
 
