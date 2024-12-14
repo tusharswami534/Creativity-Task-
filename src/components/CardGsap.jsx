@@ -4,13 +4,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Helmet } from 'react-helmet';
 
 const DummyGsap = () => {
-  const TITLE = 'My Page Title';
+  const TITLE = 'Card Gsap';
   const componentRef = useRef(null);
 
   gsap.registerPlugin(ScrollTrigger);
 
   useLayoutEffect(() => {
-    const ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: ".this-section",
@@ -42,8 +41,6 @@ const DummyGsap = () => {
           scale : 1.2,
           ease: "easeInOut",
         }, 'start');
-    }, componentRef);
-    return () => ctx.revert();
   }, []);
 
   return (
