@@ -4,8 +4,12 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "gsap": "^3.12.5",
+    "helmet": "^8.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0",
+    "react-router": "^7.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
