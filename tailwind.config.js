@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sohne: ["Sohne Schmal", "sans-serif"],}
+    },
   },
   plugins: [],
 }

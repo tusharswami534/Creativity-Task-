@@ -44,8 +44,8 @@ const SearchSection = () => {
       </div>
     </div>
     <div>
-     
       <p>
+        
       </p>
       <div id="hero" className="hero min-h-screen text-white">This is Hero Section </div>
       <div id="about" className="about min-h-screen text-white">This is About Section </div>
