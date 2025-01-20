@@ -6,6 +6,8 @@ import CardGsap from './components/CardGsap';
 import GsapSlider from './components/GsapSlider';
 import GsapRoadMap from './components/GsapRoadMap';
 import ToggleButton from './components/ToggleButton';
+import GsapCardAnimations from './components/GsapCardAnimations';
+import BallAnimation from './components/BallAnimation';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/gsap-slider" element={<GsapSlider/>} />
           <Route path="/gsap-roadmap" element={<GsapRoadMap/>} />
           <Route path="/toggle-btn" element={<ToggleButton/>} />
+          <Route path="/gsap-card-animations" element={<GsapCardAnimations/>} />
+          <Route path="/ball-animations" element={<BallAnimation/>} />
         </Routes>
       </BrowserRouter>
     </>

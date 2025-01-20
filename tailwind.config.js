@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sohne: ["Sohne Schmal", "sans-serif"],}
+        sohne: ["Sohne Schmal", "sans-serif"],
+        openSans : ["Open Sans", "sans-serif"]
+      }
     },
   },
   plugins: [],

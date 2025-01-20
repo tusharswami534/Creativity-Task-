@@ -6,3 +6,21 @@
         filter: drop-shadow(30px 10px 4px rgba(0, 0, 0, 0.5));
     }
 }
+
+.ball-animation{
+    animation: ballAnimation 1.5s infinite;
+}
+
+@keyframes ballAnimation {
+    50%{
+        transform: translateY(-240px);
+        animation-timing-function: ease-in;
+    }
+    0%,100%{
+        transform: scaleX(1.2) scaleY(0.7);
+    }
+    97%{
+        transform: scale(1);
+    }
+    
+}
