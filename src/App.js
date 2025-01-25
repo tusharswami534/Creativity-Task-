@@ -4,10 +4,11 @@ import DayNight from './components/DayNight';
 import SearchSection from './components/SearchSection';
 import CardGsap from './components/CardGsap';
 import GsapSlider from './components/GsapSlider';
-import GsapRoadMap from './components/GsapRoadMap';
 import ToggleButton from './components/ToggleButton';
 import GsapCardAnimations from './components/GsapCardAnimations';
 import BallAnimation from './components/BallAnimation';
+import Cards from './components/Cards';
+import Roadmap from './view/Roadmap';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
           <Route path="/card-gsap" element={<CardGsap/>} />
           <Route path="/search-section" element={<SearchSection/>} />
           <Route path="/gsap-slider" element={<GsapSlider/>} />
-          <Route path="/gsap-roadmap" element={<GsapRoadMap/>} />
+          <Route path="/gsap-roadmap" element={<Roadmap/>} />
           <Route path="/toggle-btn" element={<ToggleButton/>} />
           <Route path="/gsap-card-animations" element={<GsapCardAnimations/>} />
           <Route path="/ball-animations" element={<BallAnimation/>} />
+          <Route path="/card" element={<Cards/>} />
         </Routes>
       </BrowserRouter>
     </>
