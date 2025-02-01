@@ -9,6 +9,7 @@ import GsapCardAnimations from './components/GsapCardAnimations';
 import BallAnimation from './components/BallAnimation';
 import Cards from './components/Cards';
 import Roadmap from './view/Roadmap';
+import BackToTop from './components/BcakToTop';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/gsap-card-animations" element={<GsapCardAnimations/>} />
           <Route path="/ball-animations" element={<BallAnimation/>} />
           <Route path="/card" element={<Cards/>} />
+          <Route path="/back-to-top" element={<BackToTop/>} />
         </Routes>
       </BrowserRouter>
     </>
