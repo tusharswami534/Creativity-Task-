@@ -22,5 +22,108 @@
     97%{
         transform: scale(1);
     }
-    
+}
+
+/* Loader */
+/* 
+.loader{
+    width: 12em;
+    height: 3em;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 8px solid black;
+    filter: url(#goo);
+}
+
+.loader::before{
+    content: '';
+    width: 22em;
+    height: 18em;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    left: -2em;
+    bottom: -18em;
+    animation: weel 2s linear infinite;
+}
+
+.loader::after{
+    content: '';
+    width: 16em;
+    height: 12em;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    left: -4em;
+    bottom: -12em;
+    animation: weel2 2s linear infinite 0.75s;
+}
+
+@keyframes weel {
+    0%{
+        transform: translateX(-10em) rotate(0deg);
+    }
+    100%{
+        transform: translateX(7em) rotate(180deg);
+    }
+}
+
+@keyframes weel2 {
+    0%{
+        transform: translateX(-8em) rotate(0deg);
+    }
+    100%{
+        transform: translateX(8em) rotate(180deg);
+    }
+} */
+
+
+/* CSS animation */
+
+.animation-ball{
+    animation: ballAnimation 1.5s infinite;
+}
+
+.animation-stick{
+    animation: stickAnimation 1.5s infinite ;
+}
+
+.animation-white-ball{
+    animation: ballAnimationTwo 1.5s infinite linear;
+    border-radius: 100% 100% 100% 99% / 0% 0% 83% 100% ;
+}
+
+@keyframes ballAnimationTwo {
+    0%{
+        bottom: 40%;
+    }
+    25%{
+        bottom: -20%;
+    }
+    50%{
+        bottom: 40%;
+    }
+    100%{
+        bottom: -20%;
+    }
+}
+
+
+
+@keyframes ballAnimation {
+    50%{
+        transform: translateY(-240px);
+        animation-timing-function: ease-in;
+    }
+    0%,100%{
+        transform: scaleX(1.2) scaleY(0.7);
+    }
+    97%{
+        transform: scale(1);
+    }
+}
+@keyframes stickAnimation {
+    0%{ 
+        rotate: 180deg;
+    }
 }

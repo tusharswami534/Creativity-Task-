@@ -10,6 +10,8 @@ import BallAnimation from './components/BallAnimation';
 import Cards from './components/Cards';
 import Roadmap from './view/Roadmap';
 import BackToTop from './components/BcakToTop';
+import CssLoader from './components/CssLoader';
+import BallAnimations from './components/BallAnimations';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path="/ball-animations" element={<BallAnimation/>} />
           <Route path="/card" element={<Cards/>} />
           <Route path="/back-to-top" element={<BackToTop/>} />
+          <Route path="/ball-animations" element={<BallAnimations/>} />
         </Routes>
       </BrowserRouter>
     </>

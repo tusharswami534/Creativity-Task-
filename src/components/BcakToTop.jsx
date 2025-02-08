@@ -20,10 +20,10 @@ const BackToTop = () => {
     };
     return (
         <>
-            <div className="min-h-screen"></div>
-            <div className="min-h-screen"></div>
-            <div className="min-h-screen"></div>
-            <div className="min-h-screen"></div>
+            <div className="min-h-screen text-8xl text-center uppercase font-sohne max-lg:text-7xl max-md:text-6xl max-sm:text-5xl pb-10 flex justify-center items-center">This is first Section</div>
+            <div className="min-h-screen text-8xl text-center uppercase font-sohne max-lg:text-7xl max-md:text-6xl max-sm:text-5xl pb-10 flex justify-center items-center">This is Second Section</div>
+            <div className="min-h-screen text-8xl text-center uppercase font-sohne max-lg:text-7xl max-md:text-6xl max-sm:text-5xl pb-10 flex justify-center items-center">This is Third Section</div>
+            <div className="min-h-screen text-8xl text-center uppercase font-sohne max-lg:text-7xl max-md:text-6xl max-sm:text-5xl pb-10 flex justify-center items-center">This is Forth Section</div>
             <button
                 onClick={scrollToTop}
                 className="fixed bottom-5 right-5 bg-blue-500 text-white p-4 rounded-full shadow-md"
