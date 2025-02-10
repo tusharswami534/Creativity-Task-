@@ -28,7 +28,7 @@ function App() {
           <Route path="/ball-animations" element={<BallAnimation/>} />
           <Route path="/card" element={<Cards/>} />
           <Route path="/back-to-top" element={<BackToTop/>} />
-          <Route path="/ball-animations" element={<BallAnimations/>} />
+          <Route path="/ball-animation" element={<BallAnimations/>} />
         </Routes>
       </BrowserRouter>
     </>
