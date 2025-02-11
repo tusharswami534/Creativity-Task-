@@ -27,7 +27,7 @@ function App() {
             path="/gsap-card-animations"
             element={<GsapCardAnimations />}
           />
-          <Route path="/ball-animations" element={<BallAnimation />} />
+          <Route path="/ball-animation" element={<BallAnimation />} />
           <Route path="/card" element={<Cards />} />
           <Route path="/back-to-top" element={<BackToTop />} />
           <Route path="/jump-ball-on-stick" element={<JumpingBallOnStick />} />
