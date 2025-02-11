@@ -1,7 +1,6 @@
 import React from 'react'
-import BallAnimation from './BallAnimation'
 
-const BallAnimations = () => {
+const JumpingBallOnStick = () => {
     return (
         <div className='min-h-screen flex justify-center items-center flex-col py-10'>
             <div className='size-20 relative'>
@@ -13,4 +12,4 @@ const BallAnimations = () => {
     )
 }
 
-export default BallAnimations
+export default JumpingBallOnStick
