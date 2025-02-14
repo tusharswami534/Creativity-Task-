@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router";
 import "./App.css";
 import DayNight from "./components/DayNight";
 import SearchSection from "./components/SearchSection";
@@ -11,6 +10,8 @@ import Cards from "./components/Cards";
 import Roadmap from "./view/Roadmap";
 import BackToTop from "./components/BackToTop";
 import JumpingBallOnStick from "./components/JumpingBallOnStick";
+import CreativeMenuNavigation from "./components/CreativeMenuNavigation";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -27,10 +28,14 @@ function App() {
             path="/gsap-card-animations"
             element={<GsapCardAnimations />}
           />
-          <Route path="/ball-animation" element={<BallAnimation />} />
+          <Route path="/ball-animations" element={<BallAnimation />} />
           <Route path="/card" element={<Cards />} />
           <Route path="/back-to-top" element={<BackToTop />} />
           <Route path="/jump-ball-on-stick" element={<JumpingBallOnStick />} />
+          <Route
+            path="/navigation"
+            element={<CreativeMenuNavigation />}
+          />
         </Routes>
       </BrowserRouter>
     </>
