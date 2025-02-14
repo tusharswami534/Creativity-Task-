@@ -33,7 +33,7 @@ function App() {
           <Route path="/back-to-top" element={<BackToTop />} />
           <Route path="/jump-ball-on-stick" element={<JumpingBallOnStick />} />
           <Route
-            path="/navigation"
+            path="/creative-navigation"
             element={<CreativeMenuNavigation />}
           />
         </Routes>
