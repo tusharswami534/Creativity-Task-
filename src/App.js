@@ -12,6 +12,7 @@ import BackToTop from "./components/BackToTop";
 import JumpingBallOnStick from "./components/JumpingBallOnStick";
 import CreativeMenuNavigation from "./components/CreativeMenuNavigation";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DynamicDropDown from "./components/DynamicDropDown";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/card" element={<Cards />} />
           <Route path="/back-to-top" element={<BackToTop />} />
           <Route path="/jump-ball-on-stick" element={<JumpingBallOnStick />} />
+          <Route path="/dynamic-dropdown" element={<DynamicDropDown />} />
           <Route
             path="/creative-navigation"
             element={<CreativeMenuNavigation />}
