@@ -13,6 +13,7 @@ import JumpingBallOnStick from "./components/JumpingBallOnStick";
 import CreativeMenuNavigation from "./components/CreativeMenuNavigation";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DynamicDropDown from "./components/DynamicDropDown";
+import SeesawToggle from "./components/SeesawToggle";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             path="/creative-navigation"
             element={<CreativeMenuNavigation />}
           />
+          <Route path="/seesaw-toggle" element={<SeesawToggle />} />
         </Routes>
       </BrowserRouter>
     </>
