@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import React, { useState } from 'react';
 const SeesawToggle = () => {
     const [open, setOpen] = useState(false);
     return (
@@ -7,7 +6,7 @@ const SeesawToggle = () => {
             <div className={`absolute top-0 rounded-full bg-red-200 left-[-40px] size-10 transition-all duration-700 ${open ? "!scale-[90]" : ""}`}></div>
             <div className={`absolute top-0 rounded-full bg-blue-200 right-[-40px] size-10 transition-all duration-700 ${!open ? "!scale-[90]" : ""}`}></div>
             <h2 className='text-5xl max-sm:text-4xl uppercase relative z-50 font-sohne text-black mb-5'>Seesaw Toggle</h2>
-            <h3 className='text-4xl max-sm:text-3xl uppercase relative z-50 font-sohne text-black mb-5'>Click On Red and BLue Box</h3>
+            <h3 className='text-4xl max-sm:text-3xl uppercase relative z-50 font-sohne text-black mb-5'>Click On Red and BLue Circle</h3>
             <div className="relative w-[200px] overflow-hidden z-50 rounded-md h-[100px]">
                 <button
                     onClick={() => setOpen(true)}
