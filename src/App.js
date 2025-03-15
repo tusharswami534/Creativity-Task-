@@ -14,6 +14,7 @@ import CreativeMenuNavigation from "./components/CreativeMenuNavigation";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DynamicDropDown from "./components/DynamicDropDown";
 import SeesawToggle from "./components/SeesawToggle";
+import DynamicInputAnimation from "./components/DynamicInputAnimation";
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
             element={<CreativeMenuNavigation />}
           />
           <Route path="/seesaw-toggle" element={<SeesawToggle />} />
+          <Route
+            path="/dynamic-input-animation"
+            element={<DynamicInputAnimation />}
+          />
         </Routes>
       </BrowserRouter>
     </>
