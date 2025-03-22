@@ -15,6 +15,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DynamicDropDown from "./components/DynamicDropDown";
 import SeesawToggle from "./components/SeesawToggle";
 import DynamicInputAnimation from "./components/DynamicInputAnimation";
+import ScrollEffect from "./components/ScrollEffect";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
             path="/dynamic-input-animation"
             element={<DynamicInputAnimation />}
           />
+          <Route path="/scroll-effect" element={<ScrollEffect />} />
         </Routes>
       </BrowserRouter>
     </>

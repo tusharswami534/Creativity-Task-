@@ -24,59 +24,6 @@
     }
 }
 
-/* Loader */
-/* 
-.loader{
-    width: 12em;
-    height: 3em;
-    position: relative;
-    overflow: hidden;
-    border-bottom: 8px solid black;
-    filter: url(#goo);
-}
-
-.loader::before{
-    content: '';
-    width: 22em;
-    height: 18em;
-    background: black;
-    position: absolute;
-    border-radius: 50%;
-    left: -2em;
-    bottom: -18em;
-    animation: weel 2s linear infinite;
-}
-
-.loader::after{
-    content: '';
-    width: 16em;
-    height: 12em;
-    background: black;
-    position: absolute;
-    border-radius: 50%;
-    left: -4em;
-    bottom: -12em;
-    animation: weel2 2s linear infinite 0.75s;
-}
-
-@keyframes weel {
-    0%{
-        transform: translateX(-10em) rotate(0deg);
-    }
-    100%{
-        transform: translateX(7em) rotate(180deg);
-    }
-}
-
-@keyframes weel2 {
-    0%{
-        transform: translateX(-8em) rotate(0deg);
-    }
-    100%{
-        transform: translateX(8em) rotate(180deg);
-    }
-} */
-
 
 /* CSS animation */
 
@@ -127,3 +74,24 @@
         rotate: 180deg;
     }
 }
+
+/* scroll EFFECT */
+.blur {
+    animation: blurAnimation both;
+    animation-timeline: view();
+  }
+
+  @keyframes blurAnimation {
+    0% {
+      filter: blur(20px);
+    }
+
+    45%,
+    55% {
+      filter: blur(0px);
+    }
+
+    100% {
+      filter: blur(20px);
+    }
+  }
