@@ -16,6 +16,7 @@ import DynamicDropDown from "./components/DynamicDropDown";
 import SeesawToggle from "./components/SeesawToggle";
 import DynamicInputAnimation from "./components/DynamicInputAnimation";
 import ScrollEffect from "./components/ScrollEffect";
+import ClickableImage from "./components/ClickableImage";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
             element={<DynamicInputAnimation />}
           />
           <Route path="/scroll-effect" element={<ScrollEffect />} />
+          <Route path="/clickable-image" element={<ClickableImage />} />
         </Routes>
       </BrowserRouter>
     </>
